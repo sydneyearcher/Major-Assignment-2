@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Corner</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <!--For the NAV bar-->
+    <header>
+        <div class="logo">Sanrio Corner</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Characters</a>
+                </li>
+                <li>
+                    <a href="">Merch</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--For the different sections on the home page-->
+    <section class="grid">
+        <div class="col">
+            <img src="images/Kuromi IMG 1 revised.png">
+            <h3>Kuromi</h3>
+            <p> Kuromi is Melody's rival, another bunny. Kuromi dons a black jester hat with a pink skull and a little
+                black devils hair. Her birthday is on Halloween (October 31st) and her name trasnlates to black beauty
+                in English. Kuromi is popular among goth, punk, and scene crowds because of her appearance. Her
+                character enjoys writting in her diary and cooking. She loves romantic short stories, shallots and meat
+                and her favorite colors are black and hot pink. She also loves makinf mischief. She is usually described
+                as a villian a punk and a tomboy.
+            </p>
+        </div>
+        <div class="col">
+            <img src="images/Melody IMG 1 Revised.png">
+            <h3>Melody</h3>
+            <p>Mai Merodi, also known as My Melody in english and usually shortened as Melody is known as Hello Kitty's
+                best friend. Her character is inspired by Little Red Riding Hood hence her little pink hood. Her place
+                of birth is the forest of Mariland and is a rabbit. She loves to back, and enjoys Almond poundcake and
+                her famed hood that her grandmother made for her. She is descirbed as a very honest, good natured and
+                kind rabbit. She has one sibling named Rythm another sanrio character.
+            </p>
+        </div>
+        <div class="col">
+            <img src="images/badFINAL.png">
+            <h3>Bad Badtz-Maru</h3>
+            <p>Bad Badtz-Maru is a spunky little penguin with spiky hair. Unlike like other Sanrio characters he is
+                actually known for his attitude. Bad Badtz-Maru is also one of the only characters that are makerted to
+                all genders. He was born on April 1st, A.K.A April Fool's Day! He also love to collect pictures of movie
+                stars. Some of his skills are listed as "pretending" to play the piano and escaping (?). Fun fact: Bad
+                Badtz-Maru has a pet alligator and is friends with another Sanrio character Pandaba. </p>
+        </div>
+        <div class="col">
+            <img src="images/ChocoCatFinal.png">
+            <h3>Chococat</h3>
+            <p>Chococat is described as a sweet chocolate colored kitty, who was born in Chocotown Colorado. His
+                whiskers are said to pick up information like antennae so he is often the first to know things. He was
+                born May 10 and is friends with Cookie-Bau, Jelly Bean, and Nutz the hamster. Fun fact! In Choco's wiki
+                it states that his parents Rory and Catrina are currently divorced. He is also refered to as Hello
+                Kitty's counterpart in the official Sanrio Wiki Fandom.</p>
+
+
+        </div>
+        <footer class="col">
+            <p>&copy; 2023 Sanrio Corner Website. All rights reserved.</p>
+        </footer>
+        <!--For the Hamburger Menu Icon-->
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function () {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+</body>
+
+</html>
